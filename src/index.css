@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.neon-box-shadow-link {
+  @apply relative bg-secondaryDeep rounded-md transition-all ease-out duration-300  shrink-0  px-1 text-slate-100  h-12  font-Righteous flex justify-center items-center;
+}
+
+.neon-box-shadow-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 0.1rem #1484d6, 0px 0px 0.3rem #04acff,
+    0px 0px 0.8rem #1484d6, 0px 0px 1rem #1484d6;
+}
